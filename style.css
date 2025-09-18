@@ -459,6 +459,7 @@ h1 {
             padding: 3rem;
             border-radius: 15px;
             border: 1px solid rgba(100, 255, 218, 0.2);
+            /* margin-bottom: 100px; */
         }
 
         .form-group {
@@ -515,5 +516,35 @@ h1 {
 
 
 #contact {
-    background-color: #1f242d;
+    background-color: #333333;
+    padding-bottom: 100px;
 }
+    /* Footer */
+        footer {
+            background-color: #1f242d;
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 1px solid rgba(28, 30, 29, 0.2);
+            /* margin-top: 100px; */
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .social-links a {
+            color: #64ffda;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #4fc3f7;
+        }
+        .copy{
+            color: #7cf03d;
+        }
