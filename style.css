@@ -7,7 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 a{
     color: #fff;
@@ -48,7 +50,7 @@ a{
     margin-left: 45px;
 }
 .navbar ul li a {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     transition: 0.5s;
 }
